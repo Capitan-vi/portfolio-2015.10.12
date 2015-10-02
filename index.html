@@ -1,224 +1,311 @@
-<!doctype html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Портфолио html-верстальщика Валентина Емельянова</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	 <link href="http://webfonts.ru/import/arimo.css" rel="stylesheet" type="text/css">
-	 <script src="js/jquery-1.11.1.min.js"></script>
-	 <script src="js/script.js"></script>
-</head>
-
-<body>
-
-	<!-- ХЭДЕР -->
-	<header>
-		<div class="center-wrapper">
-			<nav class="top-menu">
-				<ul>
-					<li><a href="#presentation" class="js-soft-scroll">Обо мне</a></li>
-					<li><a href="#portfolio" class="js-soft-scroll">Примеры</a></li>
-					<li><a href="#sertificates" class="js-soft-scroll">Сертификаты</a></li>
-				</ul>
-			</nav>
-		</div>
-	</header>
-
-		<!-- Самопрезентация -->
-		<section id="presentation" class="clearfix low-shadow">
-			<div class="slide-container">
-				<div class="left-column">
-					<figure>
-						<img class="portrait" src="pict/my-potrait-3.jpg" alt="Валентин Емельянов">
-						<figcaption><span class="name">Валентин Емельянов,</span><br/>
-					<strong>html-верстальщик</strong></figcaption>
-					</figure>
-				</div>
-				<div class="right-column">
-					<p class="text-intro">Приветствую вас на своем сайте!</p>
-					<p class="text-intro">Здесь вы можете ознакомиться с примерами выполненных мной <a href="#portf">работ</a>, <a href="mailto:valentin.html@gmail.com?subject=Заказ верстки макета">заказать</a> верстку макета, а также связаться по интересующим вас вопросам.</p>
-					<p class="text-intro">Свою работу я вижу в том, чтобы оживить ваш дизайн-макет, написав для него аккуратный код. В результате моей работы вы получите набор файлов, готовых к публикации в вебе.</p>
-					<p class="text-intro">Контакты для связи со мной:</p>
-						<a class="contact-link contact-link-email"
-						href="mailto:valentin.html@gmail.com" title="написать письмо">valentin.html@gmail.com</a>
-						<a class="contact-link contact-link-facebook"
-						href="http://www.facebook.com/people/Valentin-Emelyanov/100008353623670"
-						target="_blank">страница на facebook</a>
-				</div>
-			</div>
-		</section>
-
-<!-- Область основного контента -->
-	<main class="clearfix">
-
-		<!-- Примеры работ -->
-		<section id="portfolio" class="clearfix low-shadow">
-			<h2>Примеры</h2>
-			<div class="slide-container">
-				<div class="left-column">
-					<h3>Макет сайта барбершопа</h3>
-					<ul class="features">Особенности:
-						<li>Стилизация элементов форм</li>
-						<li>Всплывающая форма входа в аккаунт (попап) на JS</li>
-					</ul>
-					<ul>Доступны страницы:
-						<li><a href="portfolio/barbershop-borodinski/index.html"
-						target="_blank"
-						title="посмотреть пример (html)">Главная</a></li>
-						<li><a href="portfolio/barbershop-borodinski/prise-list.html"
-						target="_blank"
-						title="посмотреть пример (html)">Прайс-лист</a></li>
-						<li><a href="portfolio/barbershop-borodinski/shop.html"
-						target="_blank"
-						title="посмотреть пример (html)">Магазин</a></li>
-					</ul>
-				</div>
-
-				<div class="right-column">
-					<div class="portfolio-sample">
-						<a href="portfolio/barbershop-borodinski/index.html"
-						title="Смотреть подробнее"
-						target="_blank">
-							<img src="pict/barbershop-frame.jpg" alt="Пример верстки макета">
-						</a>
-						<div class="sample-links">
-							<a class="sample-links-link link-download"
-							title="Загрузить HTML и CSS"
-							href="resources/barbershop-borodinski.zip"
-							download></a>
-							<a class="sample-links-link link-github-view"
-							title="Посмотреть код на GitHub"
-							target="_blank"
-							href="https://github.com/Capitan-vi/barbershop-exemple/blob/master/index.html"></a>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="slide-container">
-				<div class="left-column">
-					<h3>Макет сайта веб-студии</h3>
-					<ul class="features">Особенности:
-						<li>Анимированный баннер на CSS</li>
-						<li>Стилизация элементов форм</li>
-						<li>Всплывающая форма обратной связи (попап) на JS</li>
-					</ul>
-				</div>
-
-				<div class="right-column">
-					<div class="portfolio-sample">
-						<a href="portfolio/nerds/index.html"
-						target="_blank"
-						title="Смотреть подробнее">
-							<img src="pict/nerds-frame.jpg" alt="Пример верстки макета">
-						</a>
-						<div class="sample-links">
-							<a class="sample-links-link link-download"
-							title="Загрузить HTML и CSS"
-							href="resources/nerds.zip"
-							download></a>
-							<a class="sample-links-link link-github-view"
-							title="Посмотреть код на GitHub"
-							target="_blank"
-							href="https://github.com/Capitan-vi/nerds-exemple/blob/master/index.html"></a>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="slide-container">
-				<div class="left-column">
-					<h3>Макет корпоративного сайта</h3>
-					<ul class="features">Особенности:
-						<li>Применение БЭМ-методологии</li>
-						<li>Различные линейные градиенты</li>
-						<li>Двумерные трансформации</li>
-						<li>Вертикальное выравнивание колонок</li>
-					</ul>
-				</div>
-
-				<div class="right-column">
-					<div class="portfolio-sample">
-						<a href="portfolio/2breed/index.html"
-						target="_blank"
-						title="Смотреть подробнее">
-							<img src="pict/2breed-frame.jpg" alt="Пример верстки макета">
-						</a>
-						<div class="sample-links">
-							<a class="sample-links-link link-download"
-							title="Загрузить HTML и CSS"
-							href="resources/2breed.zip"
-							download></a>
-							<a class="sample-links-link link-github-view"
-							title="Посмотреть код на GitHub"
-							target="_blank"
-							href="https://github.com/Capitan-vi/2breed-example/blob/master/index.html"></a>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="slide-container">
-				<div class="left-column">
-					<h3>Типовой макет<br/>
-					сайта-визитки</h3>
-					<p>Фиксированная блочная верстка.</p>
-				</div>
-
-				<div class="right-column">
-					<div class="portfolio-sample">
-						<a href="portfolio/prechu/index.html"
-						target="_blank"
-						title="Смотреть подробнее">
-							<img src="pict/prechu-frame.jpg" alt="Пример верстки макета">
-						</a>
-						<div class="sample-links">
-							<a class="sample-links-link link-download"
-							title="Загрузить HTML и CSS"
-							href="resources/prechu.zip"
-							download></a>
-							<a class="sample-links-link link-github-view"
-							title="Посмотреть код на GitHub"
-							target="_blank"
-							href="https://github.com/Capitan-vi/prechu-exemple/blob/master/index.html"></a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<!-- Сертификаты -->
-		<section id="sertificates" class="clearfix">
-			<div class="slide-container">
-				<h2>Сертификаты</h2>
-				<h3>«Создание веб-интерфейсов с помощью html и css»</h3>
-				<figure>
-					<a href="sert-html-academy.pdf"
-					title="Посмотреть сертификат (pdf)"
-					target="_blank"><img src="pict/sert-html-academy.jpg" alt="Сертификат"></a>
-					<figcaption>
-						<p>Сертификат об успешном прохождении <a href="http://htmlacademy.ru/intensive"
-						target="_blank"
-						title="Ознакомиться с содержанием">курса</a> «HTML-Academy»</p>
-						<p>Продолжительность: 1 месяц.</p>
-					</figcaption>
-				</figure>
-			</div>
-		</section>
-	</main>
-
-	<!-- ФУТЕР -->
-	<footer>
-		<div class="center-wrapper">
-			<p>Личный сайт html-верстальщика Валентина Емельянова</p>
-			<span class="contact">
-				<a class="contact-link contact-link-email" href="mailto:valentin.html@gmail.com" title="написать письмо">valentin.html@gmail.com</a>
-			</span>
-			<span class="contact">
-				<a class="contact-link contact-link-facebook" href="http://www.facebook.com/people/Valentin-Emelyanov/100008353623670" target="_blank" title="связаться в facebook">страница на facebook</a>
-			</span>
-		</div>
-	</footer>
-
-</body>
-</html>
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Портфолио html-верстальщика Валентина Емельянова</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href="http://webfonts.ru/import/arimo.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-1.11.1.min.js"></script>
+  <script src="js/script.js"></script>
+</head>
+
+<body>
+
+  <!-- ХЭДЕР -->
+
+  <header>
+
+    <div class="center-wrapper">
+      <nav class="top-menu">
+        <ul>
+          <li><a href="#presentation" class="js-soft-scroll">Обо мне</a></li>
+          <li><a href="#portfolio" class="js-soft-scroll">Примеры</a></li>
+          <li><a href="#sertificates" class="js-soft-scroll">Сертификаты</a></li>
+        </ul>
+      </nav>
+    </div>
+
+  </header>
+
+    <!-- Самопрезентация -->
+
+    <section id="presentation" class="clearfix low-shadow">
+
+      <div class="slide-container">
+        <div class="left-column">
+
+          <figure>
+            <img class="portrait" src="pict/my-potrait-3.jpg" alt="Валентин Емельянов">
+            <figcaption><span class="name">Валентин Емельянов,</span><br/>
+            <strong>html-верстальщик</strong></figcaption>
+          </figure>
+
+        </div>
+
+        <div class="right-column">
+          <p class="text-intro">Приветствую вас на своем сайте!</p>
+
+          <p class="text-intro">Здесь вы можете ознакомиться с примерами выполненных мной <a href="#portf">работ</a>, <a href="mailto:valentin.html@gmail.com?subject=Заказ верстки макета">заказать</a> верстку макета, а также связаться по интересующим вас вопросам.</p>
+
+          <p class="text-intro">Свою работу я вижу в том, чтобы оживить ваш дизайн-макет, написав для него аккуратный код. В результате моей работы вы получите набор файлов, готовых к публикации в вебе.</p>
+
+          <p class="text-intro">Контакты для связи со мной:</p>
+
+            <a class="contact-link contact-link-email"
+            href="mailto:valentin.html@gmail.com"
+            title="написать письмо">valentin.html@gmail.com</a>
+
+            <a class="contact-link contact-link-facebook"
+            href="http://www.facebook.com/people/Valentin-Emelyanov/100008353623670"
+            target="_blank">страница на facebook</a>
+
+        </div>
+      </div>
+    </section>
+
+
+
+<!-- Область основного контента -->
+
+  <main class="clearfix">
+
+    <!-- Примеры работ -->
+
+    <section id="portfolio" class="clearfix low-shadow">
+
+      <h2>Примеры</h2>
+
+      <div class="slide-container">
+        <div class="left-column">
+
+          <h3>Макет сайта барбершопа</h3>
+
+          <ul class="features">Особенности:
+            <li>Стилизация элементов форм</li>
+            <li>Всплывающая форма входа в аккаунт (попап) на JS</li>
+          </ul>
+
+          <ul>Доступны страницы:
+            <li><a href="portfolio/barbershop-borodinski/index.html"
+            target="_blank"
+            title="посмотреть пример (html)">Главная</a></li>
+
+            <li><a href="portfolio/barbershop-borodinski/prise-list.html"
+            target="_blank"
+            title="посмотреть пример (html)">Прайс-лист</a></li>
+
+            <li><a href="portfolio/barbershop-borodinski/shop.html"
+            target="_blank"
+            title="посмотреть пример (html)">Магазин</a></li>
+          </ul>
+        </div>
+
+        <div class="right-column">
+
+          <div class="portfolio-sample">
+
+            <a href="portfolio/barbershop-borodinski/index.html"
+            title="Смотреть подробнее"
+            target="_blank">
+              <img src="pict/barbershop-frame.jpg" alt="Пример верстки макета">
+            </a>
+
+            <div class="sample-links">
+
+              <a class="sample-links-link link-download"
+              title="Загрузить HTML и CSS"
+              href="resources/barbershop-borodinski.zip"
+              download></a>
+              <a class="sample-links-link link-github-view"
+              title="Посмотреть код на GitHub"
+              target="_blank"
+              href="https://github.com/Capitan-vi/barbershop-exemple/blob/master/index.html"></a>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+
+      <div class="slide-container">
+
+        <div class="left-column">
+          <h3>Макет сайта веб-студии</h3>
+
+          <ul class="features">Особенности:
+            <li>Анимированный баннер на CSS</li>
+            <li>Стилизация элементов форм</li>
+            <li>Всплывающая форма обратной связи (попап) на JS</li>
+          </ul>
+        </div>
+
+
+
+        <div class="right-column">
+
+          <div class="portfolio-sample">
+
+            <a href="portfolio/nerds/index.html"
+            target="_blank"
+            title="Смотреть подробнее">
+              <img src="pict/nerds-frame.jpg" alt="Пример верстки макета">
+            </a>
+
+            <div class="sample-links">
+              <a class="sample-links-link link-download"
+              title="Загрузить HTML и CSS"
+              href="resources/nerds.zip"
+              download></a>
+
+              <a class="sample-links-link link-github-view"
+              title="Посмотреть код на GitHub"
+              target="_blank"
+              href="https://github.com/Capitan-vi/nerds-exemple/blob/master/index.html"></a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="slide-container">
+
+        <div class="left-column">
+
+          <h3>Макет корпоративного сайта</h3>
+
+          <ul class="features">Особенности:
+            <li>Применение БЭМ-методологии</li>
+            <li>Различные линейные градиенты</li>
+            <li>Двумерные трансформации</li>
+            <li>Вертикальное выравнивание колонок</li>
+          </ul>
+        </div>
+
+
+
+        <div class="right-column">
+
+          <div class="portfolio-sample">
+
+            <a href="portfolio/2breed/index.html"
+            target="_blank"
+            title="Смотреть подробнее">
+              <img src="pict/2breed-frame.jpg" alt="Пример верстки макета">
+            </a>
+
+            <div class="sample-links">
+              <a class="sample-links-link link-download"
+              title="Загрузить HTML и CSS"
+              href="resources/2breed.zip"
+              download></a>
+
+              <a class="sample-links-link link-github-view"
+              title="Посмотреть код на GitHub"
+              target="_blank"
+              href="https://github.com/Capitan-vi/2breed-example/blob/master/index.html"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="slide-container">
+
+        <div class="left-column">
+
+          <h3>Типовой макет<br/>
+          сайта-визитки</h3>
+
+          <p>Фиксированная блочная верстка.</p>
+        </div>
+
+
+
+        <div class="right-column">
+
+          <div class="portfolio-sample">
+            <a href="portfolio/prechu/index.html"
+            target="_blank"
+            title="Смотреть подробнее">
+              <img src="pict/prechu-frame.jpg" alt="Пример верстки макета">
+            </a>
+
+            <div class="sample-links">
+              <a class="sample-links-link link-download"
+              title="Загрузить HTML и CSS"
+              href="resources/prechu.zip"
+              download></a>
+
+              <a class="sample-links-link link-github-view"
+              title="Посмотреть код на GitHub"
+              target="_blank"
+              href="https://github.com/Capitan-vi/prechu-exemple/blob/master/index.html"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+
+
+    <!-- Сертификаты -->
+
+    <section id="sertificates" class="clearfix">
+
+      <div class="slide-container">
+
+        <h2>Сертификаты</h2>
+
+        <h3>«Создание веб-интерфейсов с помощью html и css»</h3>
+
+        <figure>
+          <a href="sert-html-academy.pdf"
+          title="Посмотреть сертификат (pdf)"
+          target="_blank"><img src="pict/sert-html-academy.jpg" alt="Сертификат"></a>
+
+          <figcaption>
+            <p>Сертификат об успешном прохождении <a href="http://htmlacademy.ru/intensive"
+            target="_blank"
+            title="Ознакомиться с содержанием">курса</a> «HTML-Academy»</p>
+            <p>Продолжительность: 1 месяц.</p>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+  </main>
+
+
+
+  <!-- ФУТЕР -->
+
+  <footer>
+
+    <div class="center-wrapper">
+
+      <p>Личный сайт html-верстальщика Валентина Емельянова</p>
+
+      <span class="contact">
+        <a class="contact-link contact-link-email" href="mailto:valentin.html@gmail.com" title="написать письмо">valentin.html@gmail.com</a>
+      </span>
+
+      <span class="contact">
+        <a class="contact-link contact-link-facebook" href="http://www.facebook.com/people/Valentin-Emelyanov/100008353623670" target="_blank" title="связаться в facebook">страница на facebook</a>
+      </span>
+
+    </div>
+
+  </footer>
+
+</body>
+
+</html>
+
