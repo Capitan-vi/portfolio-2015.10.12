@@ -4,7 +4,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Портфолио html-верстальщика Валентина Емельянова</title>
+  <title>Портфолио веб мастера Валентина Емельянова</title>
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link href="http://webfonts.ru/import/arimo.css" rel="stylesheet" type="text/css">
   <script src="js/jquery-1.11.1.min.js"></script>
@@ -33,13 +33,15 @@
 
     <section id="presentation" class="clearfix low-shadow">
 
-      <div class="slide-container">
+      <div class="slide-container clearfix">
         <div class="left-column">
 
           <figure>
             <img class="portrait" src="pict/my-potrait-3.jpg" alt="Валентин Емельянов">
             <figcaption><span class="name">Валентин Емельянов,</span><br/>
-            <strong>html-верстальщик</strong></figcaption>
+            <strong>html-верстальщик</strong> и <br>
+            <strong>разработчик сайтов на Wordpress</strong>
+            </figcaption>
           </figure>
 
         </div>
@@ -47,7 +49,7 @@
         <div class="right-column">
           <p class="text-intro">Приветствую вас на своем сайте!</p>
 
-          <p class="text-intro">Здесь вы можете ознакомиться с примерами выполненных мной <a href="#portf">работ</a>, <a href="mailto:valentin.html@gmail.com?subject=Заказ верстки макета">заказать</a> верстку макета, а также связаться по интересующим вас вопросам.</p>
+          <p class="text-intro">Здесь вы можете ознакомиться с примерами выполненных мной <a class="js-soft-scroll" href="#portfolio">работ</a>, <a href="mailto:valentin.html@gmail.com?subject=Письмо с сайта valentin-emelyanov.ru">заказать</a> верстку макета, а также связаться по интересующим вас вопросам.</p>
 
           <p class="text-intro">Свою работу я вижу в том, чтобы оживить ваш дизайн-макет, написав для него аккуратный код. В результате моей работы вы получите набор файлов, готовых к публикации в вебе.</p>
 
@@ -77,10 +79,66 @@
 
       <h2>Примеры</h2>
 
-      <div class="slide-container">
+      <div class="slide-container clearfix">
+        <div class="left-column">
+          <h3>Верстка и интеграция в Wordpress: <a href="http://wp6.kudinov.bget.ru/" target="_blank">«СпасибоАврора»</a></h3>
+        </div>
+
+        <div class="right-column">
+
+          <div class="portfolio-sample">
+
+            <a href="http://wp6.kudinov.bget.ru/"
+            title="Смотреть подробнее"
+            target="_blank">
+              <img class="portfolio-prview" src="pict/spasibo-avrora-frame.jpg" alt="Пример верстки макета">
+            </a>
+
+            <div class="sample-links">
+
+              <a class="sample-links-link link-github-view"
+              title="Посмотреть код на GitHub"
+              target="_blank"
+              href="https://github.com/Capitan-vi/spasiboavrora"></a>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="slide-container clearfix">
+        <div class="left-column">
+          <h3>Редактирование верстки и фронтенда: <a href="http:lid-x.ru/" target="_blank">«Lid-x»</a></h3>
+        </div>
+
+        <div class="right-column">
+
+          <div class="portfolio-sample">
+
+            <a href="http:lid-x.ru/"
+            title="Смотреть подробнее"
+            target="_blank">
+              <img class="portfolio-prview" src="pict/lid-x-frame.jpg" alt="Пример верстки макета">
+            </a>
+
+            <div class="sample-links">
+
+              <a class="sample-links-link link-github-view"
+              title="Посмотреть код на GitHub"
+              target="_blank"
+              href="https://github.com/Capitan-vi/spasiboavrora"></a>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="slide-container clearfix">
         <div class="left-column">
 
-          <h3>Макет сайта барбершопа</h3>
+          <h3>Верстка: сайт барбершопа</h3>
 
           <ul class="features">Особенности:
             <li>Стилизация элементов форм</li>
@@ -109,7 +167,7 @@
             <a href="portfolio/barbershop-borodinski/index.html"
             title="Смотреть подробнее"
             target="_blank">
-              <img src="pict/barbershop-frame.jpg" alt="Пример верстки макета">
+              <img class="portfolio-prview" src="pict/barbershop-frame.jpg" alt="Пример верстки макета">
             </a>
 
             <div class="sample-links">
@@ -131,10 +189,10 @@
 
 
 
-      <div class="slide-container">
+      <div class="slide-container clearfix">
 
         <div class="left-column">
-          <h3>Макет сайта веб-студии</h3>
+          <h3>Верстка: сайт веб-студии</h3>
 
           <ul class="features">Особенности:
             <li>Анимированный баннер на CSS</li>
@@ -152,7 +210,7 @@
             <a href="portfolio/nerds/index.html"
             target="_blank"
             title="Смотреть подробнее">
-              <img src="pict/nerds-frame.jpg" alt="Пример верстки макета">
+              <img class="portfolio-prview" src="pict/nerds-frame.jpg" alt="Пример верстки макета">
             </a>
 
             <div class="sample-links">
@@ -171,87 +229,6 @@
         </div>
       </div>
 
-
-
-      <div class="slide-container">
-
-        <div class="left-column">
-
-          <h3>Макет корпоративного сайта</h3>
-
-          <ul class="features">Особенности:
-            <li>Применение БЭМ-методологии</li>
-            <li>Различные линейные градиенты</li>
-            <li>Двумерные трансформации</li>
-            <li>Вертикальное выравнивание колонок</li>
-          </ul>
-        </div>
-
-
-
-        <div class="right-column">
-
-          <div class="portfolio-sample">
-
-            <a href="portfolio/2breed/index.html"
-            target="_blank"
-            title="Смотреть подробнее">
-              <img src="pict/2breed-frame.jpg" alt="Пример верстки макета">
-            </a>
-
-            <div class="sample-links">
-              <a class="sample-links-link link-download"
-              title="Загрузить HTML и CSS"
-              href="resources/2breed.zip"
-              download></a>
-
-              <a class="sample-links-link link-github-view"
-              title="Посмотреть код на GitHub"
-              target="_blank"
-              href="https://github.com/Capitan-vi/2breed-example/blob/master/index.html"></a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-
-      <div class="slide-container">
-
-        <div class="left-column">
-
-          <h3>Типовой макет<br/>
-          сайта-визитки</h3>
-
-          <p>Фиксированная блочная верстка.</p>
-        </div>
-
-
-
-        <div class="right-column">
-
-          <div class="portfolio-sample">
-            <a href="portfolio/prechu/index.html"
-            target="_blank"
-            title="Смотреть подробнее">
-              <img src="pict/prechu-frame.jpg" alt="Пример верстки макета">
-            </a>
-
-            <div class="sample-links">
-              <a class="sample-links-link link-download"
-              title="Загрузить HTML и CSS"
-              href="resources/prechu.zip"
-              download></a>
-
-              <a class="sample-links-link link-github-view"
-              title="Посмотреть код на GitHub"
-              target="_blank"
-              href="https://github.com/Capitan-vi/prechu-exemple/blob/master/index.html"></a>
-            </div>
-          </div>
-        </div>
-      </div>
-
     </section>
 
 
@@ -260,7 +237,7 @@
 
     <section id="sertificates" class="clearfix">
 
-      <div class="slide-container">
+      <div class="slide-container clearfix">
 
         <h2>Сертификаты</h2>
 
@@ -291,7 +268,7 @@
 
     <div class="center-wrapper">
 
-      <p>Личный сайт html-верстальщика Валентина Емельянова</p>
+      <p>Портфолио веб мастера Валентина Емельянова</p>
 
       <span class="contact">
         <a class="contact-link contact-link-email" href="mailto:valentin.html@gmail.com" title="написать письмо">valentin.html@gmail.com</a>

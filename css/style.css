@@ -281,6 +281,10 @@ main {
   position: relative;
 }
 
+.portfolio-prview {
+	max-width: 100%;
+}
+
 .sample-links {
   opacity: 0;
   position: absolute;
