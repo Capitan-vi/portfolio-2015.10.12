@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Магазин - Barbershop «Borodinski»</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/style.css">
+		<script type="text/javascript" src="js/script.js"></script>
+	</head>
+
+	<body>
+		<header>
+		<div class="center-wrapper clearfix">
+			<nav class="top-menu">
+				<a href="index.html">Главная</a>
+				<a href="javascript:void(0)">Информация</a>
+				<a href="javascript:void(0)">Новости</a>
+				<a href="prise-list.html">Прайс-лист</a>
+				<a class="active" href="shop.html">Магазин</a>
+				<a href="javascript:void(0)">Контакты</a>
+			</nav>
+			<div class="account-menu">
+				<a class="account-menu-enter account-menu-enter-disabled" href="javascript:void(0)">Вход</a>
+			</div>
+		</div>
+		</header>
+
+		<!-- ОСНОВНОЙ КОНТЕНТ -->
+		<main>
+		<!-- форма входа в аккаунт -->
+		<form class="form-popup" action="javascript:void(0)" method="post">
+			<a class="js-form-popup_close" href="javascript:void(0)">✕</a>
+			<input
+			type="text"
+			name="login"
+			class="login-field"
+			placeholder="Логин">
+			<input
+			type="password"
+			name="password"
+			class="password-field"
+			placeholder="Пароль">
+			<label><input
+			type="checkbox"
+			name="remember"> Запомните меня</label>
+			<a class="restore" href="javascript:void(0)">Я забыл пароль</a>
+			<input
+			type="submit"
+			class="btn"
+			value="Войти">
+		</form>
+
+		<div class="center-wrapper clearfix">
+			<h1>Barbershop «Borodinski» - Магазин</h1>
+			<nav class="site-navigation">
+				<a href="index.html">Главная</a>
+				<a href="javascript:void(0)">Магазин</a>
+				<a href="javascript:void(0)">Средства для ухода</a>
+			</nav>
+
+			<div class="catalog-choose-filter">
+				<h2>Производители</h2>
+				<div class="manufacturers clearfix">
+					<div class="manufacturers__row">
+						<input type="checkbox" id="baxtex" class="manufacturers__input" name="manufacturers-choose" value="baxtex-of-california" checked> <label for="baxtex" class="manufacturers__label">Baxter of California</label>
+					</div>
+					<div class="manufacturers__row">
+						<input type="checkbox" id="natty" class="manufacturers__input" name="manufacturers-choose" value="mr-natty"> <label for="natty" class="manufacturers__label">Mr Natty</label>
+					</div>
+					<div class="manufacturers__row">
+						<input type="checkbox" id="suavecito" class="manufacturers__input" name="manufacturers-choose" value="suavecito" checked> <label for="suavecito" class="manufacturers__label">Suavecito</label>
+					</div>
+					<div class="manufacturers__row">
+						<input type="checkbox" id="malin" class="manufacturers__input" name="manufacturers-choose" value="malin-goetz"> <label for="malin" class="manufacturers__label">Malin+Goetz</label>
+					</div>
+					<div class="manufacturers__row">
+						<input type="checkbox" id="murray" class="manufacturers__input" name="manufacturers-choose" value="murray-s"> <label for="murray" class="manufacturers__label">Murray`s</label>
+					</div>
+					<div class="manufacturers__row">
+						<input type="checkbox" id="crew" class="manufacturers__input" name="manufacturers-choose" value="american-crew" checked> <label for="crew" class="manufacturers__label">American Crew</label>
+					</div>
+				</div>
+
+				<div class="shipments">
+					<h2>Группы товаров</h2>
+					<a href="javascript:void(0)" class="btn shipment-group">Бритвенные принадлежности</a>
+					<a href="javascript:void(0)" class="btn shipment-group shipment-group-displayed">Средства для ухода</a>
+					<a href="javascript:void(0)" class="btn shipment-group">Аксессуары</a>
+				</div>
+			</div>
+
+			<div class="catalog-showcase">
+				<div class="shipment-card">
+					<img src="pict/product-1.jpg" alt="Образец продукта">
+					<div class="shipment-card_label">Набор для путешествий <br/>Baxter of California</div>
+					<a href="javascript:void(0)" class="btn price-link">2900 руб.</a>
+				</div>
+				<div class="shipment-card">
+					<img src="pict/product-2.jpg" alt="Образец продукта">
+					<div class="shipment-card_label">Увлажняющий кондиционер <br/>Baxter of California</div>
+					<a href="javascript:void(0)" class="btn price-link">750 руб.</a>
+				</div>
+				<div class="shipment-card">
+					<img src="pict/product-3.jpg" alt="Образец продукта">
+					<div class="shipment-card_label">Гель для волос <br/>Suavecito</div>
+					<a href="javascript:void(0)" class="btn price-link">290 руб.</a>
+				</div>
+				<div class="shipment-card">
+					<img src="pict/product-4.jpg" alt="Образец продукта">
+					<div class="shipment-card_label">Глина для укладки волос <br/>American crew</div>
+					<a href="javascript:void(0)" class="btn price-link">500 руб.</a>
+				</div>
+				<div class="shipment-card">
+					<img src="pict/product-5.jpg" alt="Образец продукта">
+					<div class="shipment-card_label">Гель для бритья <br/>American crew</div>
+					<a href="javascript:void(0)" class="btn price-link">300 руб.</a>
+				</div>
+				<div class="shipment-card">
+					<img src="pict/product-6.jpg" alt="Образец продукта">
+					<div class="shipment-card_label">Набор для бритья <br/>Baxter of California</div>
+					<a href="javascript:void(0)" class="btn price-link">3900 руб.</a>
+				</div>
+
+				<div class="catalog-navigation">
+					<a href="javascript:void(0)" class="btn">1</a>
+					<a href="javascript:void(0)" class="btn catalog-active-page">2</a>
+					<a href="javascript:void(0)" class="btn">3</a>
+					<a href="javascript:void(0)" class="btn">4</a>
+				</div>
+			</div>
+		</div>
+		</main>
+
+		<footer>
+		<div class="center-wrapper  clearfix">
+
+			<div class="contacts-address">
+				<p><strong>Barbershop «Borodinski»</strong></p>
+				<p>Адрес: г. Москва, ул. Собаки Павлова, д. 13</p>
+				<p>Телефон: +7 (495) 666-02-666</p>
+			</div>
+
+			<div class="social-buttons">
+				<strong>Давайте дружить!</strong><br/>
+				<a class="btn-social btn-social-vk" href="http://vk.com"></a>
+				<a class="btn-social btn-social-fb" href="http://facebook.com"></a>
+				<a class="btn-social btn-social-inst" href="http://instagram.com"></a>
+			</div>
+
+			<div class="copyright">
+				<strong>Дизайн сайта</strong><br/><a class="btn" href="javascript:void(0)">glushanko.ru</a>
+			</div>
+		</div>
+		</footer>
+	</body>
+</html>
